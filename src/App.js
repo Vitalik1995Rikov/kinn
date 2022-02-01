@@ -1,5 +1,10 @@
 import React from 'react';
-// import Header from "./components/Header/Header";
+import Header from './components/Header';
+import Content from './components/Content';
+import MapleCollection from './components/MapleCollection';
+import OurDesignStory from './components/OurDesignStory';
+import YourTable from './components/YourTable';
+import SignUp from './components/SignUp';
 // import LeftSide from "./components/LeftSide/LeftSide";
 // import CenterSide from "./components/CenterSide/CenterSide";
 // import RightSide from "./components/RightSide/RightSide";
@@ -7,21 +12,12 @@ import React from 'react';
 const App = () => {
   return (
     <div>
-      1
-      <div>
-        {/* <Header />
-      </div>
-      <div className="flex">
-        <div className="w-1/4">
-          <LeftSide />
-        </div>
-        <div className="w-1/2">
-          <CenterSide />
-        </div>
-        <div className="w-1/4">
-          <RightSide /> */}
-        {/* </div> */}
-      </div>
+      <Header />
+      <Content />
+      <MapleCollection />
+      <OurDesignStory />
+      <YourTable />
+      <SignUp />
     </div>
   );
 };
