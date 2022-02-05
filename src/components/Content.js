@@ -7,6 +7,7 @@ import SignUp from '../components/SignUp';
 import Text from './Text/Text';
 import Footer from './Footer';
 import Moments from './Moments';
+import Essentials from './Essentials';
 
 const Content = () => {
   return (
@@ -15,6 +16,7 @@ const Content = () => {
       <img src="../../assets/Rectangle.png" alt="img" />
       <Text />
       <MapleCollection />
+      <Essentials />
       <OurDesignStory />
       <YourTable />
       <SignUp />

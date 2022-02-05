@@ -466,6 +466,79 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-56 {
+  top: 14rem;
+  right: 14rem;
+  bottom: 14rem;
+  left: 14rem;
+}
+
+.inset-60 {
+  top: 15rem;
+  right: 15rem;
+  bottom: 15rem;
+  left: 15rem;
+}
+
+.inset-6 {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
+.inset-96 {
+  top: 24rem;
+  right: 24rem;
+  bottom: 24rem;
+  left: 24rem;
+}
+
+.inset-x-96 {
+  left: 24rem;
+  right: 24rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.top-44 {
+  top: 11rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -496,12 +569,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 6rem;
 }
 
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
 
 .mb-24 {
   margin-bottom: 6rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -541,6 +627,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-1\/2 {
   width: 50%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-center {
@@ -648,6 +738,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.25rem;
 }
 
+.px-96 {
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -688,6 +783,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 18rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -723,6 +830,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-normal {

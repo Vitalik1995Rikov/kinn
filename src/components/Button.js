@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Button = () => {
   return (
     <div className="flex my-6 justify-center">
