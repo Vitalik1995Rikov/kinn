@@ -26,10 +26,10 @@ const Maple = () => {
     <div>
       <ul className="flex">
         {data.map((item) => (
-          <li>
+          <li className="px-4">
             <img src={item.img} alt="img" />
-            <span>{item.name}</span>
-            <div>{item.price}</div>
+            <span className="flex justify-center pt-4">{item.name}</span>
+            <div className="flex justify-center pb-20 pt-2">{item.price}</div>
           </li>
         ))}
       </ul>
