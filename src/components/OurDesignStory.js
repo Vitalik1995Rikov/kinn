@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurDesignStory = () => {
   return (
-    <div className="flex">
+    <div className="flex bg-amber-100 my-6 px-8 py-16">
       <img src="../../assets/OurDesign.png" alt="img" />
       <h1>Our Design Story</h1>
       <span>

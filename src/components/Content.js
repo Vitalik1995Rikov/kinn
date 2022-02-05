@@ -8,7 +8,7 @@ import Text from './Text/Text';
 
 const Content = () => {
   return (
-    <div>
+    <div className="p-10">
       <Header />
       <img src="../../assets/Rectangle.png" alt="img" />
       <Text />

@@ -1,13 +1,12 @@
 import React from 'react';
+import Maple from './Maple';
 
 const MapleCollection = () => {
   return (
-    <div>
+    <div className="bg-amber-100 p-8">
       <span>Maple Board Collection</span>
       <div className="flex">
-        <img src="../../assets/MapleShort.png" alt="img" />
-        <img src="../../assets/MapleMiddle.png" alt="img" />
-        <img src="../../assets/MapleWide.png" alt="img" />
+        <Maple />
       </div>
     </div>
   );
