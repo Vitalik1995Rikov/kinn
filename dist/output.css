@@ -795,6 +795,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 24rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

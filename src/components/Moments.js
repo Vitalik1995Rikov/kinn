@@ -20,7 +20,10 @@ const data = [
 const Moments = () => {
   return (
     <div>
-      <span>#KinnMoments</span>
+      <div className="flex justify-center">
+        <span className="pt-16 pb-10 text-2xl">#KinnMoments</span>
+      </div>
+
       <ul className="flex">
         {data.map((item) => (
           <li className="px-1">
