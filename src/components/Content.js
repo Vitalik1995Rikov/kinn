@@ -5,6 +5,8 @@ import OurDesignStory from '../components/OurDesignStory';
 import YourTable from '../components/YourTable';
 import SignUp from '../components/SignUp';
 import Text from './Text/Text';
+import Footer from './Footer';
+import Moments from './Moments';
 
 const Content = () => {
   return (
@@ -16,6 +18,8 @@ const Content = () => {
       <OurDesignStory />
       <YourTable />
       <SignUp />
+      <Moments />
+      <Footer />
     </div>
   );
 };
