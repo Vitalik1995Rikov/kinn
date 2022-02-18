@@ -1,7 +1,70 @@
 import React from 'react';
 
+const names = [
+  {
+    id: 1,
+    name: 'SHOP',
+  },
+  {
+    id: 2,
+    name: 'STYLE QUIZ',
+  },
+  {
+    id: 3,
+    name: 'ABOUT US',
+  },
+  {
+    id: 4,
+    name: 'STORIES',
+  },
+];
+
+const helpes = [
+  {
+    id: 1,
+    name: 'FAQS+SHIPPING',
+  },
+  {
+    id: 2,
+    name: 'CONTACT',
+  },
+  {
+    id: 3,
+    name: 'TERMS',
+  },
+  {
+    id: 4,
+    name: 'TRADE',
+  },
+];
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className="flex justify-between">
+      <div>
+        <div>
+          <span>2021 Kinn Home</span>
+        </div>
+        <div>
+          <span>Need to get in touch? Just email us at hello@kinnhome.co</span>
+        </div>
+      </div>
+      <div>
+        <ul>
+          {names.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <ul>
+          {helpes.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default Footer;
