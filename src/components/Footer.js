@@ -63,6 +63,11 @@ const Footer = () => {
           ))}
         </ul>
       </div>
+      <div className="flex h-5">
+        <img src="../../assets/facebook.png" alt="img" />
+        <img src="../../assets/pinst.png" alt="img" />
+        <img src="../../assets/inst.png" alt="img" />
+      </div>
     </div>
   );
 };
