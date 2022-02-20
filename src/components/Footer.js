@@ -40,13 +40,15 @@ const helpes = [
 
 const Footer = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between bg-[#717353] h-96 w-full mt-16 text-[#FFFFEF]">
       <div>
         <div>
           <span>2021 Kinn Home</span>
         </div>
         <div>
-          <span>Need to get in touch? Just email us at hello@kinnhome.co</span>
+          <span>
+            Need to get in touch? Just email us <br /> at hello@kinnhome.co
+          </span>
         </div>
       </div>
       <div>
