@@ -21,17 +21,19 @@ const names = [
 
 const Header = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between content-center p-10">
       <ul className="flex">
         {names.map((item) => (
-          <li key={item.id}>{item.name}</li>
+          <li className="px-4" key={item.id}>
+            {item.name}
+          </li>
         ))}
       </ul>
       <div>KINN</div>
       <div className="flex">
-        <img src="../../assets/Human.png" alt="img" />
-        <img src="../../assets/Zoom.png" alt="img" />
-        <img src="../../assets/Bag.png" alt="img" />
+        <img className="px-2" src="../../assets/Human.png" alt="img" />
+        <img className="px-2" src="../../assets/Zoom.png" alt="img" />
+        <img className="px-2" src="../../assets/Bag.png" alt="img" />
       </div>
     </div>
   );
