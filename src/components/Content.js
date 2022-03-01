@@ -8,12 +8,13 @@ import Text from './Text/Text';
 import Footer from './Footer';
 import Moments from './Moments';
 import Essentials from './Essentials';
+import Image from './Image';
 
 const Content = () => {
   return (
     <div className="p-10">
       <Header />
-      <img src="../../assets/Rectangle.png" alt="img" />
+      <Image />
       <Text />
       <MapleCollection />
       <Essentials />
