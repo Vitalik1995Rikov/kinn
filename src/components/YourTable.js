@@ -2,7 +2,7 @@ import React from 'react';
 
 const YourTable = () => {
   return (
-    <div className="flex">
+    <div className="flex bg-[#FFFFEF]">
       <div className="w-3/5 p-10">
         <div className="flex justify-center text-xl">
           <h1>Your Table Your Time</h1>

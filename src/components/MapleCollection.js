@@ -3,7 +3,7 @@ import Maple from './Maple';
 
 const MapleCollection = () => {
   return (
-    <div className=" bg-amber-50 p-8">
+    <div className="bg-[#FFFFEF] my-6 px-4 py-4">
       <div className="flex justify-center">
         <span className="py-16">Maple Board Collection</span>
       </div>
