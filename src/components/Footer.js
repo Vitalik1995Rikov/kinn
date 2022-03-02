@@ -40,10 +40,13 @@ const helpes = [
 
 const Footer = () => {
   return (
-    <div className="flex justify-between bg-[#717353] h-96 w-full mt-16 text-[#FFFFEF]">
+    <div className="flex justify-between bg-[#717353] h-96 w-full mt-16 pt-16 text-[#FFFFEF]">
       <div>
         <div>
           <span>2021 Kinn Home</span>
+        </div>
+        <div>
+          <img src="../../assets/line.png" alt="img" />
         </div>
         <div>
           <span>
@@ -52,6 +55,12 @@ const Footer = () => {
         </div>
       </div>
       <div>
+        <div>
+          <span>EXPLORE</span>
+        </div>
+        <div>
+          <img src="../../assets/line.png" alt="img" />
+        </div>
         <ul>
           {names.map((item) => (
             <li key={item.id}>{item.name}</li>
@@ -59,6 +68,12 @@ const Footer = () => {
         </ul>
       </div>
       <div>
+        <div>
+          <span>HELP</span>
+        </div>
+        <div>
+          <img src="../../assets/line.png" alt="img" />
+        </div>
         <ul>
           {helpes.map((item) => (
             <li key={item.id}>{item.name}</li>
