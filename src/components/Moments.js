@@ -21,7 +21,7 @@ const Moments = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <span className="pt-16 pb-10 text-2xl">#KinnMoments</span>
+        <span className="pt-16 pb-10 text-2xl text-[#56593D]">#KinnMoments</span>
       </div>
 
       <ul className="flex">

@@ -7,7 +7,7 @@ const SignUp = () => {
       <span className="text-center text-[#56593D]">
         Receive special offers and look at new products
       </span>
-      <button>SUBSCRIBE</button>
+      <button className="text-[#56593D]">SUBSCRIBE</button>
     </div>
   );
 };
