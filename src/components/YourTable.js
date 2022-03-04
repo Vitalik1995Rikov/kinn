@@ -8,10 +8,9 @@ const YourTable = () => {
           <h1 className="text-[#56593D]">Your Table Your Time</h1>
         </div>
         <p className="p-5 text-center text-[#56593D]">
-          We believe in thoughtful, international living. So we proLorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Doloremque officiis delectus porro odio non facilis
-          architecto quisquam id similique rerum, dicta esse dignissimos saepe, odit ratione?
-          Dolores minima pariatur at?
+          Our modern lives keep us in constant motion. But what keeps us moving isnot always what
+          moves us. Our time at the table is our pause button. Meals can become moments and moments
+          can become memories. So grab a plate, pull up a seat, and stay a while
         </p>
       </div>
       <div className="p-10">
